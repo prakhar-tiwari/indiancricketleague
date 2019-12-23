@@ -1,0 +1,9 @@
+.match-details {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    width: 85%;
+    margin-left: 50px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 2px;
+}

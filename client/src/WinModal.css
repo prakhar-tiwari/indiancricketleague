@@ -1,0 +1,44 @@
+#exampleModalCenter .winDataModal {
+    width: 800px;
+    height: auto;
+}
+
+#exampleModalCenter .modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content .modal-header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-body{
+    margin: auto;
+}
+
+.modal-body .progress{
+    margin-top:20px;
+}
+
+.progress::before {
+    content: 'First Team';
+    position: absolute;
+    font-size: 16px;
+    left: 2%;
+    top: -20%;
+    color: green;
+}
+
+.progress::after{
+    content:'Second Team';
+    position: absolute;
+    font-size: 16px;
+    right:2%;
+    top:-20%;
+    color: orange;
+}
+
+.modal-body .teams-comparison{
+    border: 4px solid rgb(160, 170, 177);
+}

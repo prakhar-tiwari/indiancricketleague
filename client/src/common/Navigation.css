@@ -1,0 +1,10 @@
+.navbar{
+    background: linear-gradient(to right bottom, rgb(93, 152, 175,0.4), rgb(40, 180, 133,0.4)),
+    linear-gradient(to left top, rgba(21, 241, 205, 0.4), rgba(21, 4, 172, 0.4));
+}
+
+.navbar .container a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+}

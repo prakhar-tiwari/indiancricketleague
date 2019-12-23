@@ -1,0 +1,20 @@
+.loader-bg {
+    background: none repeat scroll 0 0 black;
+    position: fixed;
+    display: flex;
+    opacity: 0.5;
+    z-index: 1000001;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.loader-bg img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}

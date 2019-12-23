@@ -1,0 +1,104 @@
+.header-section h1 span {
+    color: #292d2c;
+    font-size: 36px;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+    font-weight: 900;
+}
+
+.match-details-section {
+    padding: 20px 6px 40px 6px;
+}
+
+.top-items {
+    margin-top: 10%;
+    height: 30px;
+    width: 60%;
+    padding-right: 10px;
+    margin-left: 35%;
+}
+
+.Chennai-Super-Kings-theme {
+    background: rgba(255, 255, 60, 0.5);
+    color: #f15c19;
+}
+
+.Delhi-Daredevils-theme {
+    background: rgb(192, 40, 38, 0.5);
+    color: white;
+}
+
+.Rajasthan-Royals-theme {
+    background: rgb(37, 74, 165, 0.5);
+    color: white;
+}
+
+.Kings-XI-Punjab-theme {
+    background: rgb(237, 29, 36, 0.5);
+    color: #f9f9fa;
+}
+
+.Mumbai-Indians-theme {
+    background: rgb(0, 75, 160, 0.5);
+    color: white;
+}
+
+.Rising-Pune-Supergiants-theme {
+    background: rgb(255, 221, 83, 0.5);
+    color: #2c04a2;
+}
+
+.Rising-Pune-Supergiant-theme {
+    background: rgb(209, 29, 155, 0.5);
+    color: white;
+}
+
+.Kochi-Tuskers-Kerala-theme {
+    background: rgba(126, 63, 151, 0.5);
+    color: white;
+}
+
+.Kolkata-Knight-Riders-theme {
+    background: rgb(46, 8, 84, 0.5);
+    color: white;
+}
+
+.Royal-Challengers-Bangalore-theme {
+    background: rgb(206, 19, 19, 0.5);
+    color: white;
+}
+
+.Gujarat-Lions-theme {
+    background: rgb(224, 79, 22, 0.5);
+    color: white;
+}
+
+.Pune-Warriors-theme {
+    background: rgb(234, 76, 45, 0.5);
+    color: white;
+}
+
+.Sunrisers-Hyderabad-theme {
+    background: rgb(255, 130, 42, 0.5);
+    color: white;
+}
+
+.Deccan-Chargers-theme {
+    background: rgb(49, 90, 138, 0.5);
+    color: white;
+}
+
+.Delhi-Capitals-theme {
+    background: rgb(165, 39, 43, 0.5);
+    color: white;
+}
+
+@media(max-width:800px) {
+    .top-items .filterbyteam, .top-items .filterbyyear {
+        margin-top: 2%;
+    }
+}
+
+[data-theme="dark"] {
+    background-color: #000;
+}
